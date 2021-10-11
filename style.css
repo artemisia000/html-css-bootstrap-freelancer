@@ -1,8 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 .start{
     background-color:rgb(9, 51, 58) ;
@@ -12,8 +8,11 @@
 
 .general{
     height: auto;
-    background-color: rgb(88, 185, 104);
     color: #fff;
+}
+
+.bg-green{
+    background-color: rgb(88, 185, 104);
 }
 
 .bg-white{
@@ -33,6 +32,10 @@
     margin: 50px 0;
 }
 
+.bg-foot{
+    background-color: rgb(36, 36, 97);
+}
+
 .line{
     height: 2px;
     width: 50px;
@@ -42,7 +45,7 @@
 /*BOX*/
 
 .box{
-    height: 200px;
+    height: 250px;
     background-color: coral;
     border-radius: 5px;
 }
@@ -53,4 +56,9 @@
     height: auto;
 }
 
+/*FOOTER*/
 
+footer{
+    height: 100px;
+    background-color: rgb(26, 26, 58);
+}
