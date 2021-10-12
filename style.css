@@ -26,10 +26,9 @@
     border-radius: 1px;
 }
 
-.btn{
-    border: currentColor;
+.br{
+    border: 1px #fff solid;
 }
-
 
 
 /*BACKGROUND*/
