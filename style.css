@@ -1,7 +1,7 @@
 
 
 .start{
-    background-color:rgb(9, 51, 58) ;
+    background-color:#2c3e50 ;
     height: 100px;
     color: #fff;
 }
@@ -32,7 +32,7 @@
 /*BACKGROUND*/
 
 .bg-green{
-    background-color: rgb(88, 185, 104);
+    background-color:#45b39c ;
 }
 
 .bg-white{
@@ -43,7 +43,7 @@
 }
 
 .bg-foot{
-    background-color: rgb(36, 36, 97);
+    background-color:#364c61 ;
 }
 
 
@@ -65,13 +65,34 @@
 
 
 .contact{
-    background-color: darkgoldenrod;
-    height: auto;
+    height: auto; 
+}
+
+.form-floating{
+    border: 0;
+}
+
+.form-floating :focus{
+    border-bottom: 1px #000 solid;
+}
+
+/*CONTAINER 5*/
+
+.font{
+    width: 50px;
+    height: 50px;
+    border: 1px #fff solid;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.font i{
+    align-items: center;
 }
 
 /*FOOTER*/
 
 footer{
     height: 100px;
-    background-color: rgb(26, 26, 58);
+    background-color: #2c3e50;
 }

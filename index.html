@@ -13,14 +13,14 @@
 </head>
 <body>
 
-    <div class="container-fluid start">
+    <div class="container-fluid start justify-content-between">
         <div class="row ">
             <div class="col-6">Start</div>
             <div class="col-6">Nav</div>
         </div>
     </div>
 
-    <div class="container-fluid general bg-green">
+    <div class="container-fluid general bg-green p-3">
         <div class="row ">
             <div class="col-3">
             </div>
@@ -31,7 +31,7 @@
             </div> 
         </div>
 
-        <div class="row ">
+        <div class="row m-3">
             <div class="col-2">
             </div>
             <div class="col-8 d-flex justify-content-center">
@@ -40,8 +40,10 @@
             <div class="col-2">
             </div> 
         </div>
+
     <!--STAR-->
-        <div class="row ">
+
+        <div class="row m-3 ">
             <div class="col-2">
             </div>
             <div class="col-8 d-flex justify-content-center align-items-center">
@@ -53,11 +55,11 @@
             </div> 
         </div>
 
-        <div class="row mg-50">
+        <div class="row m-3">
             <div class="col-1">
             </div>
             <div class="col-10 d-flex justify-content-center">
-                GRAPHIC ARTIST-WEB DESIGNER-ILLUSTRATOR</div>
+                Graphic Artist-Web Designer-Illustrator</div>
             </div>
             <div class="col-1 ">
             </div> 
@@ -66,9 +68,9 @@
 
     <!--BOX-->
 
-    <div class="container">
+    <div class="container mt-50">
 
-        <div class="row mg-50">
+        <div class="row ">
             <div class="col-2">
             </div>
             <div class="col-8 d-flex justify-content-center">
@@ -80,7 +82,7 @@
 
     <!--STAR-->
 
-        <div class="row mg-50">
+        <div class="row m-3">
             <div class="col-2">
             </div>
             <div class="col-8 d-flex justify-content-center align-items-center">
@@ -95,7 +97,7 @@
         <!--IMAGES-->
 
 
-        <div class="row">
+        <div class="row m-3">
             <div class="col-12 col-md-6 col-lg-4 mt-3">
                 <div class="box">
                     <img src="./img/cabin.png" alt="">
@@ -139,10 +141,10 @@
 
 
     <div class="container-fluid general bg-green mt-50">
-        <div class="row mt-50">
+        <div class="row">
             <div class="col-2">
             </div>
-            <div class="col-8 d-flex justify-content-center">
+            <div class="col-8 d-flex justify-content-center mt-50">
                 <h2>ABOUT</h2>
             </div>
             <div class="col-2">
@@ -152,7 +154,7 @@
     <!--STAR-->
     
 
-        <div class="row ">
+        <div class="row m-3 ">
             <div class="col-2 ">
             </div>
             <div class="col-8 d-flex justify-content-center align-items-center">
@@ -164,22 +166,20 @@
             </div> 
         </div>
 
-        <div class="row">
+        <div class="row m-3">
             <div class="col-2">
-
             </div>
             <div class="col-8">
                 <p>mdkdidjhnce iebibv biwbfvihwr biwryvfhvber
                     vjfnjnbrbverò vnerjrbviebvvbwrb  bvybve  rhvbrebvrev  vbeirbve hbfviuwpbv vbeibfv bveirviprw rivbwr
                 </p>
             </div>
-            <div class="col-2">
-            </div>
-
+                <div class="col-2">
+                </div>
         </div>
+
         <div class="row">
             <div class="col-2">
-
             </div>
             <div class="col-8">
                 <p>mdkdidjhnce iebibv biwbfvihwr biwryvb
@@ -187,17 +187,19 @@
                     vjfnjnbrbverò vnerjrbviebvvbwrb  bvybve  rhvbrebvrev  vbeirbve hbfviuwpbv vbeibfv bveirviprw rivbwr
                 </p>
             </div>
-            <div class="col-2">
-            </div>
+                <div class="col-2">
+                 </div>
         </div>
 
-        <div class="row">
+    <!--BUTTON-->
+
+        <div class="row m-3">
             <div class="col-12 d-flex justify-content-center">
                 <button>Download</button>
             </div>
         </div>
-        
     </div>
+
     <!--container 4-->
 
     <div class="container mt-50">
@@ -224,16 +226,29 @@
             </div> 
         </div>
 
-        <div class="row ">
+        <div class="row m-3 ">
             <div class="col-2">
             </div>
             <div class="col-8">
                 <div class="contact">
-                    <div class="name">mamama</div>
-                    <div class="name">mamamam</div>
-                    <div class="name">mammam</div>
-                    <div class="name">mamam</div>
-                    <div class="name">mamama</div>
+                    <div class="form-floating">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Name</label>
+                      </div>
+                      <div class="form-floating">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email Address</label>
+                      </div>
+                      <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Phone Number</label>
+                      </div>
+
+                      <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Message</label>
+                      </div>
+                    
                 </div>
             </div>
             <div class="col-2">
@@ -245,37 +260,42 @@
 
     <div class="container-fluid bg-foot general mt-50">
 
-        <div class="row ">
+        <div class="row mt-50 ">
             <div class="col-1">
 
             </div>
             <div class="col-10 text-center">
                <h5>LOCATION</h5>
-               <span>adress 12512 125125 125</span>
+               <span>22150 John Daniel Drive Clark,MO 54243 </span>
             </div>
             <div class="col-1">
             </div>
         </div>
 
-        <div class="row">
+        <div class="row mt-50">
             <div class="col-1">
 
             </div>
             <div class="col-10 text-center">
                <h5>AROUND THE WEB</h5>
-               <span>adress 12512 125125 125</span>
+               <div class="d-flex justify-content-center " >
+               <div class="font"><i class="fa-brands fa-facebook-f"></i></div>
+               <div class="font"><i class="fa-brands fa-google-plus-g"></i></div>
+               <div class="font"><i class="fa-brands fa-twitter"></i></div>
+               <div class="font"><i class="fa-brands fa-linkedin-in"></i></div>
+               </div>
             </div>
             <div class="col-1">
             </div>
         </div>
 
-        <div class="row">
+        <div class="row mt-50">
             <div class="col-1">
 
             </div>
             <div class="col-10 text-center">
                <h5>ABOUT FREELANCER</h5>
-               <span>adress 12512 125125 125</span>
+               <span>Freelance is a free to use,open source Bootstrap theme created by   <span class="bg-green" >Start Bootstrap</span> .</span>
             </div>
             <div class="col-1">
             </div>
