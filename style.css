@@ -30,6 +30,23 @@
     border: 1px #fff solid;
 }
 
+/*HOVER*/
+
+.box img{
+    position: relative;
+}
+
+.box img:hover::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,.5)
+
+}
+
 
 /*BACKGROUND*/
 
@@ -81,6 +98,10 @@
 .form-floating :focus{
     border-bottom: 1px #000 solid;
 }
+
+/*CONTAINER 4*/
+
+
 
 /*CONTAINER 5*/
 
